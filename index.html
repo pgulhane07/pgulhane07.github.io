@@ -1,0 +1,1921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Piyush Gulhane Profile</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Edu+TAS+Beginner:wght@400..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        
+        <!-- Skills Section Custom Styles -->
+        <style>
+            /* Smooth Scrolling */
+            html {
+                scroll-behavior: smooth;
+            }
+            
+            /* Navbar Styles */
+            .navbar {
+                transition: all 0.3s ease;
+            }
+            
+            .navbar-nav .nav-link {
+                color: rgba(255, 255, 255, 0.8) !important;
+                transition: color 0.3s ease;
+                padding: 0.5rem 1rem !important;
+            }
+            
+            .navbar-nav .nav-link:hover {
+                color: #fff !important;
+            }
+            
+            /* Body padding for fixed navbar */
+            body {
+                padding-top: 56px;
+            }
+            
+            /* Section scroll offset */
+            section[id], div[id] {
+                scroll-margin-top: 70px;
+            }
+            
+            .skill-card {
+                background: #fff;
+                border-radius: 12px;
+                padding: 1.5rem;
+                text-align: center;
+                transition: all 0.3s ease;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+            }
+            
+            .skill-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+            }
+            
+            .skill-card .icon-container {
+                margin-bottom: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                min-height: 60px;
+            }
+            
+            .skill-card .icon-container img {
+                width: 64px;
+                height: 64px;
+                object-fit: contain;
+            }
+            
+            .skill-card .icon-container i,
+            .skill-card .icon-container span {
+                font-size: 3rem;
+            }
+            
+            .skill-card h4 {
+                font-size: 1.1rem;
+                font-weight: 600;
+                margin: 0.5rem 0;
+                color: #333;
+            }
+            
+            .skill-card .skill-level-text {
+                font-size: 0.85rem;
+                color: #666;
+                margin-bottom: 0.75rem;
+                font-weight: 500;
+            }
+            
+            .skill-progress {
+                width: 100%;
+                height: 6px;
+                background-color: #e9ecef;
+                border-radius: 10px;
+                overflow: hidden;
+                margin-top: 0.5rem;
+            }
+            
+            .skill-progress-bar {
+                height: 100%;
+                border-radius: 10px;
+                transition: width 1s ease-in-out;
+                background: linear-gradient(90deg, #007bff, #0056b3);
+            }
+            
+            .skill-progress-bar.advanced {
+                background: linear-gradient(90deg, #28a745, #1e7e34);
+                width: 90%;
+            }
+            
+            .skill-progress-bar.proficient {
+                background: linear-gradient(90deg, #007bff, #0056b3);
+                width: 75%;
+            }
+            
+            .skill-progress-bar.intermediate {
+                background: linear-gradient(90deg, #ffc107, #e0a800);
+                width: 60%;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm" style="z-index: 1000;">
+            <div class="container">
+                <a class="navbar-brand" href="#pigraHome">
+                    <strong>Piyush Gulhane</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pigraHome"><i class="fas fa-home me-1"></i> Home</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#about"><i class="fas fa-user me-1"></i> About Me</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience"><i class="fas fa-briefcase me-1"></i> Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#certifications"><i class="fas fa-certificate me-1"></i> Publications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education"><i class="fas fa-graduation-cap me-1"></i> Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects"><i class="fas fa-project-diagram me-1"></i> Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills"><i class="fas fa-code me-1"></i> Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#life"><i class="fas fa-heart me-1"></i> Life</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid" id="pigraHome">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-12 col-lg-3">
+                        <div class="header-content bg-dark h-100 pt-6 pe-6 pb-6">
+                            <!-- <a href="index.html" class="navbar-brand d-inline-flex pb-5 wow fadeInUp" data-wow-delay="0.1s">
+                                <h1 class="display-6 text-white mb-0">Pigra</h1>
+                            </a> 
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.3s">
+                                <p class="text-white sub-title">👋 Hello I'm Piyush</p>
+                                <h1 class="display-6 text-white mb-0">Student Software Developer</h1>
+                            </div> -->
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">About Me</p>
+                                <h1 class="display-6 text-white mb-0">Master's Student</h1>
+                                <h1 class="display-6 text-white mb-0">Software Developer</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <div class="header-img d-flex h-100 pt-6 ps-6 pb-6">
+                            <div class="row g-5">
+                                <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="bg-light p-4" style="border-radius: 68% 32% 100% 0% / 0% 75% 25% 100%;">
+                                        <img src="img/Profile.png" class="img-fluid w-100" style="border-radius: 68% 32% 100% 0% / 0% 75% 25% 100%;" alt="Image">
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 wow fadeInUp" data-wow-delay="0.3s">
+                                    <h1 class="display-6 mb-4">Piyush Manoj Gulhane</h1>
+                                    <p class="mb-4">
+                                        Software Engineer | Java, Spring Boot, Microservices | AWS Certified Developer Associate | MS in CSE @ University at Buffalo | Seeking Full-Time SDE Roles(Open to Relocation)
+                                    </p>
+                                    <div class="d-flex align-items-center mb-2">
+                                        <i class="fas fa-map-marker-alt text-primary me-3"></i>
+                                        <p class="text-dark mb-0">102 Englewood Avenue, Buffalo, New York, USA</p>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-2">
+                                        <i class="fas fa-envelope text-primary me-3"></i>
+                                        <p class="text-dark mb-0">pgulhane@buffalo.edu</p>
+                                        
+                                    </div>
+                                    <div class="d-flex align-items-center mb-2">
+                                        <i class="fas fa-envelope text-primary me-3"></i>
+                                        <p class="text-dark mb-0">piyushgulhane.ms@gmail.com</p>
+                                        
+                                    </div>
+                                    <div class="d-flex align-items-center mb-2">
+                                        <i class="fa fa-phone-alt text-primary me-3"></i>
+                                        <p class="text-dark mb-0">+1 (716) 704 7498</p>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-4">
+                                        <i class="fab fa-firefox-browser text-primary me-3"></i>
+                                        <p class="text-dark mb-0"><a href="https://homepages.buffalo.edu/~pgulhane/" target="_blank">https://homepages.buffalo.edu/~pgulhane/</a></p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <a class="btn btn-primary btn-sm-square me-3" href="https://www.linkedin.com/in/piyushgulhane/" target="_blank">
+                                            <i class="fab fa-linkedin-in text-white"></i>
+                                        </a>
+                                        
+                                        <a class="btn btn-primary btn-sm-square me-3" href="https://github.com/pgulhane07" target="_blank">
+                                            <i class="fab fa-github text-white"></i>
+                                        </a>
+                                    
+                                        <a class="btn btn-primary btn-sm-square me-0" href="https://leetcode.com/u/piyush150/" target="_blank" title="LeetCode">
+                                            <i class="fas fa-code text-white" style="font-size: 20px;"></i>
+                                        </a>
+                                    </div>
+                                    <div class="mt-4">
+                                        <a href="PiyushManojGulhane.pdf" download="PiyushManojGulhane.pdf" class="btn btn-primary py-2 px-4">
+                                            <i class="fas fa-download me-2"></i>Download Resume
+                                        </a>
+                                    </div>
+                                    
+                                    <!-- <span class="fab fa-github fa-3x"></span> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- About Start -->
+        <!-- <div class="container-fluid" id="about">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-12 col-lg-3">
+                        <div class="about-header bg-dark h-100 pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">About Me</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <div class="about-content h-100 pt-6 ps-6 pb-6">
+                            <div class="row g-5">
+                                <div class="col-xl-5">
+                                    <div class="about-img bg-light p-4 wow fadeInUp" data-wow-delay="0.1s">
+                                        <img src="img/about.jpg" class="img-fluid w-100" alt="Image">
+                                        <div class="sosial-icon">
+                                            <a class="btn btn-primary btn-sm-square mb-3" href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                                            <a class="btn btn-primary btn-sm-square mb-3" href="#"><i class="fab fa-twitter text-white"></i></a>
+                                            <a class="btn btn-primary btn-sm-square mb-3" href="#"><i class="fab fa-instagram text-white"></i></a>
+                                            <a class="btn btn-primary btn-sm-square mb-3" href="#"><i class="fab fa-linkedin-in text-white"></i></a>
+                                        </div>
+                                        <div class="mt-3">
+                                            <a href="#" class="btn btn-primary py-2 px-4 w-100"> <i class="fas fa-download me-2"></i>Download My CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-7 wow fadeInUp" data-wow-delay="0.3s">
+                                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam repellat, sint magni incidunt voluptatum eveniet numquam vel facilis sit similique a mollitia et dolorum aperiam repellendus ipsum, quidem nemo eligendi!
+                                    </p>
+                                    <div class="row g-4 mb-4">
+                                        <div class="col-6">
+                                            <p><strong class="fw-bold text-dark">Phone :</strong> + 113-804-9098</p>
+                                            <p><strong class="fw-bold text-dark">skype :</strong> mezbah.wallas</p>
+                                            <p class="mb-0"><strong class="fw-bold text-dark">Address :</strong> 123 Street New York</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p><strong class="fw-bold text-dark">Nationality :</strong> New York, USA</p>
+                                            <p><strong class="fw-bold text-dark">Email :</strong> contact@mezbah.com</p>
+                                            <p class="mb-0"><strong class="fw-bold text-dark">Freelancer :</strong> Available</p>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn-primary py-2 px-4"> <i class="fas fa-download me-2"></i>Download My CV</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        About End -->
+
+
+        <!-- Experience Start -->
+        <div class="container-fluid" id="experience">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="experience-header bg-dark h-100 pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">Experience</p>
+                                <h1 class="display-6 text-white mb-0">My Work Experience</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="experience-content h-100 pt-6 ps-6 pb-6">
+                            <div class="row g-4">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="flashcard-card wow fadeInUp" data-wow-delay="0.1s" data-bs-toggle="modal" data-bs-target="#experienceModal1">
+                                        <div class="flashcard-icon">
+                                            <img src="img/tcslogo.png" alt="Tata Consultancy Services Logo" style="max-width: 80px; max-height: 80px; object-fit: contain;">
+                                        </div>
+                                        <h4 class="flashcard-title">Software Engineer</h4>
+                                        <p class="flashcard-subtitle">Tata Consultancy Services</p>
+                                        <p class="flashcard-date"><i class="fa fa-calendar me-1"></i> Jul 2021 - Aug 2024</p>
+                                        <p class="flashcard-highlight">8+ Microservices | 99.9% Uptime</p>
+                                        <div class="flashcard-click">Click for details →</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="flashcard-card wow fadeInUp" data-wow-delay="0.3s" data-bs-toggle="modal" data-bs-target="#experienceModal2">
+                                        <div class="flashcard-icon">
+                                            <img src="img/bizlogo.png" alt="BizTime IT Solutions Logo" style="max-width: 80px; max-height: 80px; object-fit: contain;">
+
+                                        </div>
+                                        <h4 class="flashcard-title">Software Engineering Intern</h4>
+                                        <p class="flashcard-subtitle">BizTime IT Solutions</p>
+                                        <p class="flashcard-date"><i class="fa fa-calendar me-1"></i> May 2020 - Jul 2020</p>
+                                        <p class="flashcard-highlight">MERN Stack | 5K+ Submissions</p>
+                                        <div class="flashcard-click">Click for details →</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Experience End -->
+
+        <!-- Publication and Certification Start -->
+        <div class="container-fluid" id="certifications">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="certification-header bg-dark h-100 pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">Publication and Certification</p>
+                                <h1 class="display-6 text-white mb-0">My Publications and Certifications</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="certification-content h-100 pt-6 ps-6 pb-6">
+                            <div class="row g-4">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="flashcard-card wow fadeInUp" data-wow-delay="0.1s" data-bs-toggle="modal" data-bs-target="#certificationModal1">
+                                        <div class="flashcard-icon">
+                                            <img src="img/aws.png" alt="AWS Badge" style="max-width: 80px; max-height: 80px; object-fit: contain;">
+
+                                        </div>
+                                        <h4 class="flashcard-title">AWS Developer</h4>
+                                        <p class="flashcard-subtitle">Certified Developer - Associate</p>
+                                        <p class="flashcard-date"><i class="fa fa-calendar me-1"></i> 2025</p>
+                                        <p class="flashcard-highlight">Cloud-Native Applications</p>
+                                        <div class="flashcard-click">Click for details →</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="flashcard-card wow fadeInUp" data-wow-delay="0.2s" data-bs-toggle="modal" data-bs-target="#certificationModal2">
+                                        <div class="flashcard-icon">
+                                            <img src="img/ieee.png" alt="IEEE CogMI 2025 Conference Logo" style="max-width: 80px; max-height: 80px; object-fit: contain;">
+
+                                        </div>
+                                        <h4 class="flashcard-title">IEEE Research Paper</h4>
+                                        <p class="flashcard-subtitle">IEEE CogMI 2025 Conference</p>
+                                        <p class="flashcard-date"><i class="fa fa-calendar me-1"></i> 2025</p>
+                                        <p class="flashcard-highlight">Self-Supervised Learning</p>
+                                        <div class="flashcard-click">Click for details →</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Publication and Certification End -->
+
+
+        <!-- Education Start -->
+        <div class="container-fluid" id="education">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="education-header bg-dark h-100 pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">Education</p>
+                                <h1 class="display-6 text-white mb-0">My Educational qualifications</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="education-content h-100 pt-6 ps-6 pb-6">
+                            <div class="row g-4">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="flashcard-card wow fadeInUp" data-wow-delay="0.1s" data-bs-toggle="modal" data-bs-target="#educationModal1">
+                                        <div class="flashcard-icon">
+                                            <img src="img/ublogo.png" alt="University at Buffalo Seal" style="max-width: 100px; max-height: 100px; object-fit: contain;">
+                                        </div>
+                                        <h4 class="flashcard-title">Masters in CSE</h4>
+                                        <p class="flashcard-subtitle">University at Buffalo, NY</p>
+                                        <p class="flashcard-date"><i class="fa fa-calendar me-1"></i> Aug 2024 - Dec 2025</p>
+                                        <p class="flashcard-highlight">GPA: 3.96 / 4.0</p>
+                                        <div class="flashcard-click">Click for details →</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="flashcard-card wow fadeInUp" data-wow-delay="0.3s" data-bs-toggle="modal" data-bs-target="#educationModal2">
+                                        <div class="flashcard-icon">
+                                            <img src="img/pictlogo.jpeg" alt="Pune Institute of Computer Technology Seal" style="max-width: 100px; max-height: 100px; object-fit: contain;">
+                                        </div>
+                                        <h4 class="flashcard-title">Bachelors in CS</h4>
+                                        <p class="flashcard-subtitle">PICT, Pune University</p>
+                                        <p class="flashcard-date"><i class="fa fa-calendar me-1"></i> Aug 2017 - Jun 2021</p>
+                                        <p class="flashcard-highlight">CGPA: 9.36 / 10.0</p>
+                                        <div class="flashcard-click">Click for details →</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Education End -->
+
+
+        <!-- Projects Start -->
+        <div class="container-fluid" id="projects">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="service-header h-100 bg-dark pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">My Projects</p>
+                                <h1 class="display-6 text-white mb-0">Things I have Implemented</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="experience-content h-100 pt-6 ps-6 pb-6">
+                            <div class="row g-4">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="flashcard-card wow fadeInUp" data-wow-delay="0.6s" data-bs-toggle="modal" data-bs-target="#projectModal6">
+                                        <div class="flashcard-icon">
+                                            <img src="img/resumatch.png" alt="ResuMatch Logo" style="max-width: 80px; max-height: 80px; object-fit: contain;">
+                                        </div>
+                                        <h4 class="flashcard-title">ResuMatch</h4>
+                                        <p class="flashcard-subtitle">UB Hacking | Full-Stack AI Application</p>
+                                        <p class="flashcard-date"><i class="fa fa-calendar me-1"></i> 2025</p>
+                                        <p class="flashcard-highlight">AI-Powered Resume Tailoring</p>
+                                        <div class="flashcard-click">Click for details →</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="flashcard-card wow fadeInUp" data-wow-delay="0.1s" data-bs-toggle="modal" data-bs-target="#projectModal1">
+                                        <div class="flashcard-icon">
+                                            <img src="img/emojigen.jpeg" alt="Emoji Generation logo Logo" style="max-width: 80px; max-height: 80px; object-fit: contain;">
+
+                                        </div>
+                                        <h4 class="flashcard-title">Emoji Generation with DCGANs</h4>
+                                        <p class="flashcard-subtitle">CSE 573 | University at Buffalo</p>
+                                        <p class="flashcard-date"><i class="fa fa-calendar me-1"></i> Summer 2025</p>
+                                        <p class="flashcard-highlight">DCGAN | Conditional Generation</p>
+                                        <div class="flashcard-click">Click for details →</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="flashcard-card wow fadeInUp" data-wow-delay="0.2s" data-bs-toggle="modal" data-bs-target="#projectModal2">
+                                        <div class="flashcard-icon">
+                                            <img src="img/SSLmri.jpg" alt="SSL representation Logo" style="max-width: 80px; max-height: 80px; object-fit: contain;">
+
+                                        </div>
+                                        <h4 class="flashcard-title">Alzheimer's Disease Classification</h4>
+                                        <p class="flashcard-subtitle">CSE 676-B | Research Paper</p>
+                                        <p class="flashcard-date"><i class="fa fa-calendar me-1"></i> Jan - May 2025</p>
+                                        <p class="flashcard-highlight">SSL | 87% Accuracy | CogMI 2025</p>
+                                        <div class="flashcard-click">Click for details →</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="flashcard-card wow fadeInUp" data-wow-delay="0.3s" data-bs-toggle="modal" data-bs-target="#projectModal3">
+                                        <div class="flashcard-icon">
+                                            <img src="img/traffic.jpg" alt="Smart traffic management" style="max-width: 80px; max-height: 80px; object-fit: contain;">
+
+                                        </div>
+                                        <h4 class="flashcard-title">Intelligent Traffic Management</h4>
+                                        <p class="flashcard-subtitle">Computer Vision Project</p>
+                                        <p class="flashcard-date"><i class="fa fa-calendar me-1"></i> 2020</p>
+                                        <p class="flashcard-highlight">YOLOv3 | 87.68% Accuracy</p>
+                                        <div class="flashcard-click">Click for details →</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="flashcard-card wow fadeInUp" data-wow-delay="0.4s" data-bs-toggle="modal" data-bs-target="#projectModal4">
+                                        <div class="flashcard-icon">
+                                            <i class="fas fa-users fa-3x"></i>
+                                        </div>
+                                        <h4 class="flashcard-title">Student Engagement Tracker</h4>
+                                        <p class="flashcard-subtitle">Web Application</p>
+                                        <p class="flashcard-date"><i class="fa fa-calendar me-1"></i> 2020</p>
+                                        <p class="flashcard-highlight">PHP | MySQL | RBAC | Dashboard</p>
+                                        <div class="flashcard-click">Click for details →</div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="flashcard-card wow fadeInUp" data-wow-delay="0.5s" data-bs-toggle="modal" data-bs-target="#projectModal5">
+                                        <div class="flashcard-icon">
+                                            <img src="img/pictinc.jpeg" alt="PICT INC Logo" style="max-width: 80px; max-height: 80px; object-fit: contain;">
+                                        </div>
+                                        <h4 class="flashcard-title">PICT INC</h4>
+                                        <p class="flashcard-subtitle">Annual Tech Fest Website</p>
+                                        <p class="flashcard-date"><i class="fa fa-calendar me-1"></i> Jan - June 2020</p>
+                                        <p class="flashcard-highlight">PHP | Angular | MySQL | Razorpay</p>
+                                        <div class="flashcard-click">Click for details →</div>
+                                    </div>
+                                </div>
+                                
+                                <!-- <div class="col-12">
+                                    <div class="experience-item rounded p-4 h-100 wow fadeInUp d-flex justify-content-between align-items-center"
+                                         role="button"
+                                         data-bs-toggle="collapse"
+                                         data-bs-target="#moreExperience"
+                                         aria-expanded="false"
+                                         aria-controls="moreExperience">
+                                        <h4 class="mb-0 text-primary">Other Machine Learning Projects</h4>
+                                        <span class="fas fa-chevron-right text-primary rotate-icon" id="expandIcon"></span>
+                                    </div>
+                                </div>
+                                <div class="collapse col-12" id="moreExperience">
+                                    <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <p class="fs-5 mb-0 me-4">Predicting House Prices using Linear Regression</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="collapse col-12" id="moreExperience">
+                                    <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <p class="fs-5 mb-0 me-4">Cats and Dogs Classification using VIT pretrained models</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="collapse col-12" id="moreExperience">
+                                    <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <p class="fs-5 mb-0 me-4">VGG16 - ResNet-18 Image Classification</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="collapse col-12" id="moreExperience">
+                                    <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <p class="fs-5 mb-0 me-4">Accident severity prediction</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="collapse col-12" id="moreExperience">
+                                    <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <p class="fs-5 mb-0 me-4">Sentiment analysis on Amazon review Dataset using LSTM</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="collapse col-12" id="moreExperience">
+                                    <div class="experience-item rounded p-4 h-100 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <p class="fs-5 mb-0 me-4">Text classification on ag news dataset Using Transformers</p>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Projects End -->
+
+
+        <!-- Skills Start -->
+        <div class="container-fluid" id="skills">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="skills-header h-100 bg-dark pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">Skills</p>
+                                <h1 class="display-6 text-white mb-0">My Expertise Skills</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="skills-content h-100 pt-6 ps-6 pb-6">
+
+                            <!-- Programming Languages -->
+                            <h3 class="mt-4 mb-3">Programming Languages</h3>
+                            <div class="row g-4">
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <img src="img/java logo.svg" alt="Camunda Logo">
+                                        </div>
+                                        <h4>Java</h4>
+                                        <p class="skill-level-text">Advanced</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar advanced"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <img src="img/python.png" alt="Camunda Logo">
+                                        </div>
+                                        <h4>Python</h4>
+                                        <p class="skill-level-text">Proficient</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar proficient"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <i class="fab fa-cuttlefish fa-3x" style="color:#00599C;"></i>
+                                        </div>
+                                        <h4>C++</h4>
+                                        <p class="skill-level-text">Proficient</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar proficient"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <i class="fab fa-js-square fa-3x" style="color:#F7DF1E;"></i>
+                                        </div>
+                                        <h4>JavaScript - TypeScript</h4>
+                                        <p class="skill-level-text">Proficient</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar proficient"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Frameworks & Libraries -->
+                            <h3 class="mt-5 mb-3">Frameworks & Libraries</h3>
+                            <div class="row g-4">
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <img src="img/spring.png" alt="Camunda Logo">
+                                        </div>
+                                        <h4>Spring Boot</h4>
+                                        <p class="skill-level-text">Advanced</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar advanced"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <i class="fab fa-node fa-3x" style="color:#83CD29;"></i>
+                                        </div>
+                                        <h4>Node.js</h4>
+                                        <p class="skill-level-text">Proficient</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar proficient"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <i class="fab fa-node-js fa-3x" style="color:#68A063;"></i>
+                                        </div>
+                                        <h4>Express.js</h4>
+                                        <p class="skill-level-text">Proficient</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar proficient"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <i class="fab fa-angular fa-3x" style="color:#DD0031;"></i>
+                                        </div>
+                                        <h4>AngularJS</h4>
+                                        <p class="skill-level-text">Proficient</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar proficient"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <i class="fab fa-react fa-3x" style="color:#61DAFB;"></i>
+                                        </div>
+                                        <h4>ReactJS</h4>
+                                        <p class="skill-level-text">Proficient</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar proficient"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <img src="img/django.jpg" alt="Camunda Logo">
+                                        </div>
+                                        <h4>Django</h4>
+                                        <p class="skill-level-text">Intermediate</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar intermediate"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+
+                            <!-- Web Development & Cloud -->
+                            <h3 class="mt-5 mb-3">Web Development & Cloud</h3>
+                            <div class="row g-4">
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <i class="fab fa-aws fa-3x" style="color:#FF9900;"></i>
+                                        </div>
+                                        <h4>AWS (EC2, S3)</h4>
+                                        <p class="skill-level-text">Advanced</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar advanced"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <img src="img/kafka.png" alt="Kafka Logo">
+                                        </div>
+                                        <h4>Kafka</h4>
+                                        <p class="skill-level-text">Advanced</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar advanced"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <img src="img/camunda.png" alt="Camunda Logo">
+                                        </div>
+                                        <h4>Camunda Modeling</h4>
+                                        <p class="skill-level-text">Advanced</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar advanced"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <i class="fab fa-docker fa-3x" style="color:#0db7ed;"></i>
+                                        </div>
+                                        <h4>Docker</h4>
+                                        <p class="skill-level-text">Proficient</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar proficient"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                               
+                            </div>
+
+                            <!-- Databases -->
+                            <h3 class="mt-5 mb-3">Databases</h3>
+                            <div class="row g-4">
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="MySQL Logo" style="width: 64px; height: 64px;">
+                                        </div>
+                                        <h4>MySQL</h4>
+                                        <p class="skill-level-text">Advanced</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar advanced"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSQL Logo" style="width: 64px; height: 64px;">
+                                        </div>
+                                        <h4>PostgreSQL</h4>
+                                        <p class="skill-level-text">Advanced</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar advanced"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <img src="img/couchbase.png" alt="Camunda Logo">
+                                        </div>
+                                        <h4>Couchbase</h4>
+                                        <p class="skill-level-text">Advanced</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar advanced"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB Logo" style="width: 64px; height: 64px;">
+                                        </div>
+                                        <h4>MongoDB</h4>
+                                        <p class="skill-level-text">Proficient</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar proficient"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+
+                            <!-- Web Services & Microservices -->
+                            <h3 class="mt-5 mb-3">Web Services & Architecture</h3>
+                            <div class="row g-4">
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <i class="fas fa-network-wired fa-3x" style="color:#4285F4;"></i>
+                                        </div>
+                                        <h4>REST API</h4>
+                                        <p class="skill-level-text">Advanced</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar advanced"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <img src="img/microservice.jpg" alt="Camunda Logo">
+                                        </div>
+                                        <h4>Microservices</h4>
+                                        <p class="skill-level-text">Advanced</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar advanced"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4 col-lg-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <i class="fas fa-sync-alt fa-3x" style="color:#41b883;" title="Agile"></i>
+                                        </div>
+                                        <h4>Agile SDLC</h4>
+                                        <p class="skill-level-text">Advanced</p>
+                                        <div class="skill-progress">
+                                            <div class="skill-progress-bar advanced"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Projects End -->
+
+
+        <!-- Life Outside Work Start -->
+        <div class="container-fluid" id="life">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="skills-header h-100 bg-dark pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <!-- <p class="text-white sub-title"></p> -->
+                                <h1 class="display-6 text-white mb-0">Life Outside Work</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="skills-content h-100 pt-6 ps-6 pb-6">
+                            <div class="row g-4">
+                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <img src="img/leetcode.webp" alt="leetcode Logo">
+                                        </div>
+                                        <h4 class="skill-level">Leetcode</h4>
+                                        <a href="https://leetcode.com/u/piyush150/" target="_blank" style="text-decoration: none; color: #282ea7;">
+                                            Solved 850+ Problems | Ranked in top 9% on Weekly Contest
+                                        </a>
+                                        <p class="skill-name"></p>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <span class="fas fa-chess-knight fa-3x" style="color: green;"></span>
+                                        </div>
+                                        <h4 class="skill-level">Chess</h4>
+                                        <p class="skill-name">
+                                            <a href="https://www.chess.com/member/Piyu5h7" target="_blank" style="text-decoration: none; color: #28a745;">
+                                                Join me for a game
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <span class="fas fa-baseball-ball fa-3x" style="color: rgba(88, 24, 3, 0.648);" ></span> <!-- Closest available icon -->
+                                        </div>
+                                        <h4 class="skill-level">Cricket</h4>
+                                        <p class="skill-name">State-level player</p>
+                                    </div>
+                                </div>
+                            
+                                <!-- Trekking -->
+                                <div class="col-6 col-md-4 col-lg-4 col-xl-3">
+                                    <div class="skill-card">
+                                        <div class="icon-container">
+                                            <span class="fas fa-hiking fa-3x"></span>
+                                        </div>
+                                        <h4 class="skill-level">Trekking</h4>
+                                        <p class="skill-name">Enthusiast</p>
+                                    </div>
+                                </div>
+                            
+                                <!-- Watching Movies/Series -->
+                                
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Start -->
+        <!-- <div class="container-fluid">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="portfolio-header h-100 bg-dark pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">Portfolio</p>
+                                <h1 class="display-6 text-white mb-0">My Recent Works</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="portfolio-content h-100 pt-6 ps-6 pb-6">
+                            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-6">
+                                        <h4 class="text-body">Web Design</h4>
+                                        <h1 class="display-6 mb-0">Software Design for ABC Corporation</h1>
+                                    </div>
+                                    <div class="col-9 col-xl-4">
+                                        <div class="portfolio-img">
+                                            <div class="portfolio-img-inner">
+                                                <img src="img/Portfolio-1.jpg" class="img-fluid" alt="Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-xl-2">
+                                        <div class="view-img">
+                                            <a href="img/Portfolio-1.jpg" class="btn btn-primary btn-lg-square"  data-lightbox="Portfolio-1"><i class="fas fa-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item py-5 border-bottom wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-6">
+                                        <h4 class="text-body">Web Development</h4>
+                                        <h1 class="display-6 mb-0">Website Development for ABC Corporation</h1>
+                                    </div>
+                                    <div class="col-9 col-xl-4">
+                                        <div class="portfolio-img">
+                                            <div class="portfolio-img-inner">
+                                                <img src="img/portfolio-2.jpg" class="img-fluid" alt="Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-xl-2">
+                                        <div class="view-img">
+                                            <a href="img/portfolio-2.jpg" class="btn btn-primary btn-lg-square"  data-lightbox="portfolio-2"><i class="fas fa-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item py-5 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="row g-4 align-items-center">
+                                    <div class="col-xl-6">
+                                        <h4 class="text-body">Photography</h4>
+                                        <h1 class="display-6 mb-0">Security Analysis for ABC Corporation</h1>
+                                    </div>
+                                    <div class="col-9 col-xl-4">
+                                        <div class="portfolio-img">
+                                            <div class="portfolio-img-inner">
+                                                <img src="img/portfolio-3.jpg" class="img-fluid" alt="Image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-xl-2">
+                                        <div class="view-img">
+                                            <a href="img/portfolio-3.jpg" class="btn btn-primary btn-lg-square"  data-lightbox="portfolio-3"><i class="fas fa-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Portfolio End -->
+
+
+        <!-- Blog Start -->
+        <!-- <div class="container-fluid" id="pigraBlog">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="blog-header h-100 bg-dark pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">Blog</p>
+                                <h1 class="display-6 text-white mb-0">Recent Posts</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="blog-content h-100 pt-6 ps-6 pb-6">
+                            <div class="row g-4">
+                                <div class="col-xl-6">
+                                    <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
+                                        <div class="row g-4">
+                                            <div class="col-4">
+                                                <div class="blog-item-img bg-dark h-100">
+                                                    <a href="#">
+                                                        <img src="img/blog-1.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="Image">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="h-100">
+                                                    <p class="text-body mb-3"><i class="fa fa-calendar-alt me-2"></i> November 12, 2024</p>
+                                                    <a href="#" class="d-inline-block h4 mb-4">Secrets of the Mobile Application</a>
+                                                    <div class="py-2 px-3 bg-light d-flex justify-content-between">
+                                                        <p class="mb-0 text-body">By <a href="#" class="h6">Bernard</a></p>
+                                                        <p class="mb-0 text-body">In <a href="#" class="h6">Design</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="blog-item wow fadeInUp" data-wow-delay="0.3s">
+                                        <div class="row g-4">
+                                            <div class="col-4">
+                                                <div class="blog-item-img bg-dark h-100">
+                                                    <a href="#">
+                                                        <img src="img/blog-2.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="Image">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="h-100">
+                                                    <p class="text-body mb-3"><i class="fa fa-calendar-alt me-2"></i> November 18, 2024</p>
+                                                    <a href="#" class="d-inline-block h4 mb-4">How to Create Quality Figma Design</a>
+                                                    <div class="py-2 px-3 bg-light d-flex justify-content-between">
+                                                        <p class="mb-0 text-body">By <a href="#" class="h6">Walker</a></p>
+                                                        <p class="mb-0 text-body">In <a href="#" class="h6">Media</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="blog-item wow fadeInUp" data-wow-delay="0.5s">
+                                        <div class="row g-4">
+                                            <div class="col-4">
+                                                <div class="blog-item-img bg-dark h-100">
+                                                    <a href="#">
+                                                        <img src="img/blog-3.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="Image">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="h-100">
+                                                    <p class="text-body mb-3"><i class="fa fa-calendar-alt me-2"></i> November 23, 2025</p>
+                                                    <a href="#" class="d-inline-block h4 mb-4">Tutorials for Learning Development</a>
+                                                    <div class="py-2 px-3 bg-light d-flex justify-content-between">
+                                                        <p class="mb-0 text-body">By <a href="#" class="h6">Jacob</a></p>
+                                                        <p class="mb-0 text-body">In <a href="#" class="h6">Lifestyle</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="blog-item wow fadeInUp" data-wow-delay="0.7s">
+                                        <div class="row g-4">
+                                            <div class="col-4">
+                                                <div class="blog-item-img bg-dark h-100">
+                                                    <a href="#">
+                                                        <img src="img/blog-4.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="Image">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="h-100">
+                                                    <p class="text-body mb-3"><i class="fa fa-calendar-alt me-2"></i> November 26, 2025</p>
+                                                    <a href="#" class="d-inline-block h4 mb-4">Tutorials for Learning Development</a>
+                                                    <div class="py-2 px-3 bg-light d-flex justify-content-between">
+                                                        <p class="mb-0 text-body">By <a href="#" class="h6">Perkel</a></p>
+                                                        <p class="mb-0 text-body">In <a href="#" class="h6">Design</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeInUp" data-wow-delay="0.9s">
+                                    <div class="blog-btn d-flex justify-content-center">
+                                        <p class="mb-0 me-2">For More Works Visit</p>
+                                        <a href="#" class="btn d-inline-block p-0">Our Blog</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Blog End -->
+
+
+        <!-- Testimonial Start -->
+        <!-- <div class="container-fluid">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="testimonial-header h-100 bg-dark pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">Testimonial</p>
+                                <h1 class="display-6 text-white mb-0">What People Say</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="testimonial-content h-100 pt-6 ps-6 pb-6">
+                            <div class="testimonial-carousel owl-carousel bg-light wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="testimonial-item" data-dot="<img class='img-fluid' src='img/testimonial-img-1.jpg' alt=''>">
+                                    <div class="row gy-4 gx-2 mb-4">
+                                        <div class="col-sm-6">
+                                            <div class="d-flex justify-content-sm-end">
+                                                <div class="testimonial-inner-img border border-primary border-3 me-4" style="width: 100px; height: 100px;">
+                                                    <img src="img/testimonial-img-1.jpg" class="img-fluid" style="object-fit: cover;" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div>
+                                                <h5 class="mb-2">John Abraham</h5>
+                                                <p class="mb-0">New York, USA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-sm-center">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nemo facilis tempora esse explicabo sed! Dignissimos quia ullam pariatur blanditiis sed voluptatum. Totam aut quidem laudantium tempora. Minima, saepe earum!
+                                        </p>
+                                        <div class="d-flex justify-content-sm-center">
+                                            <i class="fas fa-star text-primary"></i>
+                                            <i class="fas fa-star text-primary"></i>
+                                            <i class="fas fa-star text-primary"></i>
+                                            <i class="fas fa-star text-primary"></i>
+                                            <i class="fas fa-star text-primary"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-item" data-dot="<img class='img-fluid' src='img/testimonial-img-2.jpg' alt=''>">
+                                    <div class="row gy-4 gx-2 mb-4">
+                                        <div class="col-sm-6">
+                                            <div class="d-flex justify-content-sm-end">
+                                                <div class="testimonial-inner-img border border-primary border-3 me-4" style="width: 100px; height: 100px;">
+                                                    <img src="img/testimonial-img-2.jpg" class="img-fluid" style="object-fit: cover;" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div>
+                                                <h5 class="mb-2">John Abraham</h5>
+                                                <p class="mb-0">New York, USA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-sm-center">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nemo facilis tempora esse explicabo sed! Dignissimos quia ullam pariatur blanditiis sed voluptatum. Totam aut quidem laudantium tempora. Minima, saepe earum!
+                                        </p>
+                                        <div class="d-flex justify-content-sm-center">
+                                            <i class="fas fa-star text-primary"></i>
+                                            <i class="fas fa-star text-primary"></i>
+                                            <i class="fas fa-star text-primary"></i>
+                                            <i class="fas fa-star text-primary"></i>
+                                            <i class="fas fa-star text-primary"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-item" data-dot="<img class='img-fluid' src='img/testimonial-img-3.jpg' alt=''>">
+                                    <div class="row gy-4 gx-2 mb-4">
+                                        <div class="col-sm-6">
+                                            <div class="d-flex justify-content-sm-end">
+                                                <div class="testimonial-inner-img border border-primary border-3 me-4" style="width: 100px; height: 100px;">
+                                                    <img src="img/testimonial-img-3.jpg" class="img-fluid" style="object-fit: cover;" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div>
+                                                <h5 class="mb-2">John Abraham</h5>
+                                                <p class="mb-0">New York, USA</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-sm-center">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores nemo facilis tempora esse explicabo sed! Dignissimos quia ullam pariatur blanditiis sed voluptatum. Totam aut quidem laudantium tempora. Minima, saepe earum!
+                                        </p>
+                                        <div class="d-flex justify-content-sm-center">
+                                            <i class="fas fa-star text-primary"></i>
+                                            <i class="fas fa-star text-primary"></i>
+                                            <i class="fas fa-star text-primary"></i>
+                                            <i class="fas fa-star text-primary"></i>
+                                            <i class="fas fa-star text-primary"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Testimonial End -->
+
+
+        <!-- Contact Start -->
+        <!-- <div class="container-fluid" id="pigraContact">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-lg-3">
+                        <div class="contact-header h-100 bg-dark pt-6 pe-6 pb-6">
+                            <div class="text-start d-flex flex-column justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                                <p class="text-white sub-title">Contact Me</p>
+                                <h1 class="display-6 text-white mb-0">Let’s Start A New Project</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                       <div class="contact-content h-100 pt-6 ps-6 pb-6">
+                            <div class="bg-light p-4">
+                                <div class="row g-5">
+                                    <div class="col-xl-5 wow fadeInUp" data-wow-delay="0.1s">
+                                        <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                                        <div class="d-flex mb-4">
+                                            <div class="btn-xl-square bg-primary text-white me-3">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                            </div>
+                                            <div>
+                                                <h4>Address</h4>
+                                                <p class="mb-0">123 Street New York.USA</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mb-4">
+                                            <div class="btn-xl-square bg-primary text-white me-3">
+                                                <i class="fas fa-envelope"></i>
+                                            </div>
+                                            <div>
+                                                <h4>Mail Us</h4>
+                                                <p class="mb-0">info@example.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="btn-xl-square bg-primary text-white me-3">
+                                                <i class="fa fa-phone-alt"></i>
+                                            </div>
+                                            <div>
+                                                <h4>Telephone</h4>
+                                                <p class="mb-0">(+012) 3456 7890</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-7 wow fadeInUp" data-wow-delay="0.3s">
+                                        <div>
+                                            <form>
+                                                <div class="row g-3">
+                                                    <div class="col-lg-12 col-xl-6">
+                                                        <div class="form-floating">
+                                                            <input type="text" class="form-control border-0" id="name" placeholder="Your Name">
+                                                            <label for="name">Your Name</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 col-xl-6">
+                                                        <div class="form-floating">
+                                                            <input type="email" class="form-control border-0" id="email" placeholder="Your Email">
+                                                            <label for="email">Your Email</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 col-xl-6">
+                                                        <div class="form-floating">
+                                                            <input type="phone" class="form-control border-0" id="phone" placeholder="Phone">
+                                                            <label for="phone">Your Phone</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-12 col-xl-6">
+                                                        <div class="form-floating">
+                                                            <input type="text" class="form-control border-0" id="project" placeholder="Project">
+                                                            <label for="project">Your Project</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="form-floating">
+                                                            <input type="text" class="form-control border-0" id="subject" placeholder="Subject">
+                                                            <label for="subject">Subject</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="form-floating">
+                                                            <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 120px"></textarea>
+                                                            <label for="message">Message</label>
+                                                        </div>
+                
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <button class="btn btn-primary w-100 py-3">Send Message</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 wow fadeInUp" data-wow-delay="0.5s">
+                                        <div class="rounded">
+                                            <iframe class="rounded w-100" 
+                                            style="height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd" 
+                                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Contact End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer bg-dark border-bottom-0">
+            <div class="container wow fadeIn" data-wow-delay="0.1s">
+                <div class="row g-0">
+                    <div class="col-12">
+                       <div class="footer-content h-100 pt-6 ps-6 pb-6">
+                            <div class="row g-4 align-items-center">
+                                <!-- <div class="col-12 text-center">
+                                    <div class="d-flex justify-content-center">
+                                        <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-light btn-md-square me-3" href=""><i class="fab fa-instagram"></i></a>
+                                        <a class="btn btn-light btn-md-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div> -->
+                                <div class="col-12 text-center">
+                                    <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-body me-2"></i>Piyush Gulhane Portfolio</a>. All right reserved.</span>
+                                </div>
+                                <div class="col-12 text-center text-body">
+                                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                                    Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">Piyush Gulhane</a>
+                                </div>
+                            </div>
+                       </div>        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        <!-- Education Modals -->
+        <!-- Education Modal 1 -->
+        <div class="modal fade" id="educationModal1" tabindex="-1" aria-labelledby="educationModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="educationModal1Label">Masters in Computer Science and Engineering</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <p class="fs-5 mb-0 me-4">University at Buffalo, NY</p>
+                            <div>
+                                <span class="fa fa-calendar me-1"></span> August 2024 - December 2025
+                            </div>
+                        </div>
+                        <p class="mb-3">
+                            Pursuing my Master's at the University at Buffalo was a passion-fueled journey that solidified my love for computer science. The program's challenging curriculum pushed me to move beyond foundational concepts and truly master the intricacies of cutting-edge fields like Deep Learning and Algorithm Design. I particularly valued the hands-on projects that allowed me to build, test, and refine my ideas, turning theoretical knowledge into tangible, impactful solutions. This experience has been invaluable in shaping my perspective as an engineer.
+                        </p>
+                        <h5 style="color: #34495e;">Courses:</h5>
+                        <ul>
+                            <li>Deep Learning</li>
+                            <li>Data Modelling and Query Language</li>
+                            <li>Algorithm Analysis and Design</li>
+                            <li>Intro to Machine Learning</li>
+                            <li>Data Intensive Computing</li>
+                            <li>Operating Systems</li>
+                            <li>Computer Security</li>
+                            <li>Digital Product Management</li>
+                            <li>Computer Vision and Image Processing</li>
+                        </ul>
+                        <p class="mt-3"><strong>Overall GPA during Masters = 3.96 / 4</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education Modal 2 -->
+        <div class="modal fade" id="educationModal2" tabindex="-1" aria-labelledby="educationModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="educationModal2Label">Bachelors in Computer Science</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <p class="fs-5 mb-0 me-4">Pune Institute of Computer Technology, Pune University</p>
+                            <div>
+                                <span class="fa fa-calendar me-1"></span> August 2017 - June 2021
+                            </div>
+                        </div>
+                        <p class="mb-3">
+                            Developed a basic understanding of Concepts in Software, Web Scripting Technologies, Database Management, Algorithms and Software Design
+                        </p>
+                        <p><strong>Overall CGPA during Bachelors = 9.36 / 10 => GPA = 3.74 / 4</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience Modals -->
+        <!-- Experience Modal 1 -->
+        <div class="modal fade" id="experienceModal1" tabindex="-1" aria-labelledby="experienceModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="experienceModal1Label">Software Engineer</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <p class="fs-5 mb-0 me-4">Tata Consultancy Services, Pune</p>
+                            <div>
+                                <span class="fa fa-calendar me-1"></span> July 2021 - August 2024
+                            </div>
+                        </div>
+                        <p class="mb-3"><strong>Technologies:</strong> Java | SpringBoot | Kafka | RabbitMQ | Camunda Modelling | Elasticsearch | AWS | Angular | Node.js | Nest.js | Drools | JUnit | Mockito</p>
+                        <ul>
+                            <li>Led the end-to-end architecture and scalability of 8+ core microservices using Java, Spring Boot, Node.js, and Kafka, designing robust RESTful services for seamless integration with financial systems and implementing CI/CD pipelines.</li>
+                            <li>Spearheaded the design of secure BKYC and Wallet Transfer modules, ensuring 99.98% adherence to global AML/CTF regulations while handling sensitive financial data, reducing fraud by 40%.</li>
+                            <li>Promoted to Lead BPM Design for KYC case workflow after re-architecting a three-tier Camunda workflow engine, which slashed SLA breach rates from 42% to 8%, addressing the bottlenecks in the BKYC lifecycle.</li>
+                            <li>Engineered a custom OCR and Fuzzy Matching pipeline to extract and validate document IDs against internal records with an 80% similarity threshold, automating approval workflows and reducing manual review overhead.</li>
+                            <li>Authored API and user documentation and deployment guides, mentored 3 new developers to facilitate rapid onboarding and drive best practices in code reviews.</li>
+                            <li>Managed project releases to production, adhering to SDLC best practices, with less than 1% post-release defects, sustaining 99.9% system uptime through active monitoring with Elasticsearch.</li>
+                            <li>Optimized CouchDB database queries, resulting in 33% reduction in query latency and improved application performance.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience Modal 2 -->
+        <div class="modal fade" id="experienceModal2" tabindex="-1" aria-labelledby="experienceModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="experienceModal2Label">Software Engineering Intern</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <p class="fs-5 mb-0 me-4">BizTime IT Solutions</p>
+                            <div>
+                                <span class="fa fa-calendar me-1"></span> May 2020 - July 2020
+                            </div>
+                        </div>
+                        <ul>
+                            <li>Implemented a Grievance Redressal System using the MERN stack, enabling time-bound escalation of complaints across management levels with a timeline-style UI for real-time tracking, improving employee satisfaction by 53%.</li>
+                            <li>Established secure CRUD operations for database interactions featuring AES encryption protocols to ensure the protection of ticket data across applications, resulting in streamlined processes handling upwards of 5K employee submissions monthly.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Certification Modal -->
+        <div class="modal fade" id="certificationModal1" tabindex="-1" aria-labelledby="certificationModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="certificationModal1Label">AWS Certified Developer - Associate</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <p class="fs-5 mb-0 me-4">AWS Certified Developer - Associate</p>
+                            <div>
+                                <span class="fa fa-calendar me-1"></span> 2025
+                            </div>
+                        </div>
+                        <div class="text-center mb-4">
+                            <a href="https://www.credly.com/badges/96d2fc0a-4ff4-4484-9cc1-a79bb525ad2f/public_url" target="_blank" rel="noopener noreferrer">
+                                <img src="img/aws.png" alt="AWS Certified Developer - Associate" style="max-width: 200px; height: auto;" class="img-fluid">
+                            </a>
+                        </div>
+                        <p class="mb-3">
+                            Successfully earned the AWS Certified Developer - Associate certification, demonstrating expertise in developing, deploying, and debugging cloud-based applications using AWS services.
+                        </p>
+                        <h5 class="mb-2" style="color: #34495e;">Key Skills Validated:</h5>
+                        <ul class="mb-3">
+                            <li>Development and deployment of cloud-native applications on AWS</li>
+                            <li>Proficiency in AWS SDKs, APIs, and CLI tools</li>
+                            <li>Implementation of CI/CD pipelines using AWS services</li>
+                            <li>Application of AWS security best practices and IAM</li>
+                            <li>Working with AWS Lambda, API Gateway, DynamoDB, and S3</li>
+                            <li>Debugging and monitoring applications using CloudWatch</li>
+                            <li>Understanding of serverless architecture patterns</li>
+                        </ul>
+                        <div class="text-center">
+                            <a href="https://www.credly.com/badges/96d2fc0a-4ff4-4484-9cc1-a79bb525ad2f/public_url" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                                <i class="fas fa-external-link-alt me-2"></i>Verify Credential
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Certification Modal 2 -->
+        <div class="modal fade" id="certificationModal2" tabindex="-1" aria-labelledby="certificationModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="certificationModal2Label">IEEE Research Paper Publication</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <p class="fs-5 mb-0 me-4">IEEE CogMI 2025 Conference</p>
+                            <div>
+                                <span class="fa fa-calendar me-1"></span> 2025
+                            </div>
+                        </div>
+                        <div class="text-center mb-4">
+                            <img src="img/ieee.png" alt="IEEE Research Paper" style="max-width: 200px; height: auto;" class="img-fluid">
+                        </div>
+                        <p class="mb-3">
+                            Published research paper at the IEEE CogMI 2025 conference on "Self-Supervised Learning for Image Representation Learning and Classification of Alzheimer Disease".
+                        </p>
+                        <h5 class="mb-2" style="color: #34495e;">Research Focus:</h5>
+                        <ul class="mb-3">
+                            <li>Self-Supervised Learning techniques for medical image analysis</li>
+                            <li>Image representation learning for Alzheimer's Disease classification</li>
+                            <li>Deep learning applications in healthcare and medical imaging</li>
+                            <li>Computer vision and pattern recognition in medical diagnostics</li>
+                        </ul>
+                        <p class="mb-3">
+                            This research contributes to the field of medical AI by exploring advanced self-supervised learning methods for improved Alzheimer's Disease detection and classification from medical images.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Modals -->
+        <!-- Project Modal 1 - DCGAN Emoji -->
+        <div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModal1Label">Generative AI for Emoji Creation using DCGANs</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <p class="fs-5 mb-0 me-4">CSE 573 | University at Buffalo | Course Project</p>
+                            <div>
+                                <span class="fa fa-calendar me-1"></span> Summer 2025
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <p class="fs-5 mb-0 me-4">Collaborators: Sreeram Melpadi, Thushar Thorenur Govindaraju</p>
+                        </div>
+                        <p class="fs-5 mb-3"><strong>Technologies:</strong> GAN | DCGAN | Conditional-DCGAN | Emoji Generation | Data Cleaning</p>
+                        <p class="mb-3">Developed a Deep Convolutional Generative Adversarial Network (DCGAN) to generate novel and unique emojis by learning from the OpenMoji dataset. This project explores the power of generative models in creative design and content creation.</p>
+                        <h5 style="color: #34495e;">Key Contributions & Impact</h5>
+                        <ul>
+                            <li><strong>Model Architecture:</strong> Implemented a robust DCGAN with a 5-layer Generator that upsamples a 100-dimensional noise vector into 64×64 emoji images, and a 5-layer Discriminator to distinguish real emojis from generated ones.</li>
+                            <li><strong>Conditional Generation:</strong> Extended the model to a Conditional DCGAN, enabling the generation of specific emojis based on text labels (e.g., "winking emoji," "crying cat face"). This adds a practical, user-driven component to the creative process.</li>
+                            <li><strong>Latent Space Analysis:</strong> Demonstrated the model's deep understanding of emoji features by smoothly interpolating between different emojis (e.g., transitioning from a "Smiley" to a "Star-Struck" emoji) in the latent space.</li>
+                            <li><strong>Training & Optimization:</strong> Carefully tuned hyperparameters, including using different learning rates for the generator (0.00015) and discriminator (0.000105) with an Adam optimizer, to achieve stable training over 500 epochs.</li>
+                        </ul>
+                        <h5 style="color: #34495e;">Performance Highlights</h5>
+                        <p>The model successfully learned the core features of emojis—like their round, yellow shape and distinct facial expressions—and generated a diverse set of new designs. While some outputs had noise, the model's ability to create hybrid expressions showcases its creative potential. The final model's quality, measured by Structural Similarity Index (SSIM), reached a peak value of 0.24 during training.</p>
+                        <div style="text-align: center; margin-top: 15px;">
+                            <p style="font-style: italic;">Sample emojis generated by the DCGAN</p>
+                            <img src="img/emoji_samples.png" style="display: inline-block; width: 80%; max-width: 500px; border-radius: 8px;">
+                        </div>
+                        <div style="text-align: center; margin-top: 15px;">
+                            <p style="font-style: italic;">Generated emojis</p>
+                            <img src="img/emoji_generated.png" style="display: inline-block; width: 80%; max-width: 500px; border-radius: 8px;">
+                        </div>
+                        <div style="text-align: center; margin-top: 15px;">
+                            <p style="font-style: italic;">Conditionally generated emojis based on text labels</p>
+                            <img src="img/emoji_conditional.png" style="display: inline-block; width: 80%; max-width: 500px; border-radius: 8px;">
+                        </div>
+                        <div style="text-align: center; margin-top: 15px;">
+                            <p style="font-style: italic;">Interpolating between 'Smiley' and 'Star-Struck'</p>
+                            <img src="img/emoji_interpolation.gif" style="display: inline-block; width: 80%; max-width: 200px; border-radius: 8px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Modal 2 - Alzheimer's -->
+        <div class="modal fade" id="projectModal2" tabindex="-1" aria-labelledby="projectModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModal2Label">Self-Supervised Learning for Image Representation Learning and Classification of Alzheimer Disease</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5 class="mb-3">Research Paper accepted at <a href="https://www.sis.pitt.edu/lersais/conference/cogmi/2025/call-for-full-papers/" target="_blank">CogMI 2025 Conference</a></h5>
+                        <div class="d-flex align-items-center mb-3">
+                            <p class="fs-5 mb-0 me-4">CSE 676-B | University at Buffalo | Guided by Prof. Alina Vereshchaka</p>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <p class="fs-5 mb-0 me-4">Collaborators: Pavithran G, Rishab Darshan S</p>
+                            <div>
+                                <span class="fa fa-calendar me-1"></span> January 2025 - May 2025
+                            </div>
+                        </div>
+                        <h5 style="color: #34495e;">Presented our work at CSE Demo Day 2025, UB</h5>
+                        <p class="mb-3">We developed a self-supervised learning (SSL) framework to classify Alzheimer's disease from MRI scans and demonstrated its cross-domain adaptability to brain tumor classification. This work addresses the challenges of limited annotated data in medical imaging by leveraging large-scale unlabeled MRI datasets (~86,000 images).</p>
+                        <h5 style="color: #34495e;">Key Contributions</h5>
+                        <ul>
+                            <li><strong>Model Architectures:</strong> Implemented and evaluated three SSL approaches:
+                                <ul>
+                                    <li><strong>SimCLR:</strong> Contrastive learning with NT-Xent loss.</li>
+                                    <li><strong>MoCo v3:</strong> Momentum contrast with Vision Transformers.</li>
+                                    <li><strong>BYOL:</strong> Bootstrap learning without negative pairs using online-target networks.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Downstream Classification:</strong> Fine-tuned SSL-pretrained encoders on a limited labeled dataset (450 images/class) for Alzheimer's classification using ResNet-50.</li>
+                            <li><strong>Cross-Domain Transfer:</strong> Extended BYOL encoder to classify brain tumor types (e.g., glioma, pituitary, meningioma) using just 300 labeled samples/class.</li>
+                            <li><strong>Explainable SSL representation:</strong> Using Grad-CAM, assisted the doctors to find the important regions in MRI scans and providing other important statistics.</li>
+                        </ul>
+                        <h5 style="color: #34495e;">Performance Highlights</h5>
+                        <ul>
+                            <li><strong>Accuracy on Alzheimer's Test Set:</strong>
+                                <ul>
+                                    <li><strong>MoCo v3:</strong> Accuracy 87.0% | Model Parameters: 87.8 M</li>
+                                    <li><strong>BYOL:</strong> Accuracy 86.3% | Model Parameters: 49.4 M</li>
+                                    <li><strong>SimCLR:</strong> Accuracy 82.6% | Model Parameters: 26.6 M</li>
+                                    <li><strong>ResNet-50 (supervised):</strong> 74.4%</li>
+                                </ul>
+                            </li>
+                            <li><strong>Brain Tumor Classification:</strong> 86.67% accuracy using BYOL features and minimal labeled data.</li>
+                        </ul>
+                        <div style="text-align: center;">
+                            <p>Sample Grad-CAM Image Representations</p>
+                            <img src="img/ssl/mild_demen.png" style="display: inline-block; width: 300px; margin: 5px;">
+                            <img src="img/ssl/moderate_demen.png" style="display: inline-block; width: 300px; margin: 5px;">
+                            <img src="img/ssl/Non-demen.png" style="display: inline-block; width: 300px; margin: 5px;">
+                            <img src="img/ssl/Very_mild.png" style="display: inline-block; width: 300px; margin: 5px;">
+                        </div>
+                        <div class="mt-3">
+                            <a href="https://huggingface.co/spaces/Piyushms07/Alzheimer_classifier" target="_blank" class="btn btn-primary">Alzheimer Disease Classifier Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Modal 3 - Traffic Management -->
+        <div class="modal fade" id="projectModal3" tabindex="-1" aria-labelledby="projectModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModal3Label">Intelligent Traffic Management System</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="fs-5 mb-3"><strong>Technologies:</strong> Object Detection | Object Classification | YOLOv3 | Logistic Regression | Custom Clock Algorithm | Python</p>
+                        <ul>
+                            <li>Formulated a model to predict the traffic signal wait time based on real-time traffic analysis using Object detection using YOLO v3 single-stage predictor.</li>
+                            <li>Model able to predict duration accurately up to 87.68% with reducing vehicle wait time by 8 minutes for daily commuters.</li>
+                            <li>Performed Analyses of the collected data to draw patterns of traffic, driving style, need for public transportation and designed the dashboard</li>
+                        </ul>
+                        <h5 style="color: #34495e;">Detailed Project</h5>
+                        <ul>
+                            <li>Using the surveillance camera at traffic signals, we will capture the images of incoming roads to signal.</li>
+                            <li>Using Yolo V3 Model to detect vehicles into 4 category- Bus, Truck, Car, Motorcycle with the count of each present</li>
+                            <li>Using this as a input to our trained model to estimate the time required to optimally free the traffic.</li>
+                            <li>Model was developed based on data of time taken by vehicle to clear in traffic signal once it is green, vehicle 0-30 acceleration, Size of road occupied by vehicle, etc.</li>
+                            <li>Based on input parameters we developed a Neural Network model to accurately predict the signal time</li>
+                            <li>Integrating the signals and adjusting times to ensure minimal wait times at signals</li>
+                            <li>This would reduce wait times for route with heavy traffic which would wait at cross section where not many vehicles are present</li>
+                            <li>Dynamically updating signal times helps to streamline the traffic without the need to wait at signals, reducing travel time</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Modal 4 - Student Engagement Tracker -->
+        <div class="modal fade" id="projectModal4" tabindex="-1" aria-labelledby="projectModal4Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModal4Label">Student Engagement Tracker</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <p class="fs-5 mb-0 me-4">Web Application</p>
+                            <div>
+                                <span class="fa fa-calendar me-1"></span> 2020
+                            </div>
+                        </div>
+                        <p class="fs-5 mb-3"><strong>Technologies:</strong> PHP | JavaScript | MySQL | HTML | CSS</p>
+                        <p class="mb-3">A comprehensive web application designed to track and manage student activities beyond academics, providing a centralized platform for students, teachers, and staff at PICT, Pune.</p>
+                        <h5 style="color: #34495e;">Key Features</h5>
+                        <ul>
+                            <li><strong>Database Design:</strong> Designed and implemented a robust database to keep track of all student activities apart from their academics.</li>
+                            <li><strong>Dashboard & Analytics:</strong> Provided a comprehensive dashboard to visualize statistics, generate reports, and display personalized profile pages for each student.</li>
+                            <li><strong>Role-Based Access Control (RBAC):</strong> Implemented an RBAC model for approval/permissions for any event/activity, ensuring proper access control and workflow management.</li>
+                            <li><strong>Reward System:</strong> Added a reward module for all-round performers, including badges and other achievements, linked to their profile page to share with colleagues.</li>
+                            <li><strong>Real-World Impact:</strong> The system is currently being used within PICT, Pune, helping students, teachers, and staff to efficiently keep track of activities and student engagement.</li>
+                        </ul>
+                        <div class="mt-3">
+                            <a href="https://github.com/pgulhane07/Student-Engagement-Tracker" target="_blank" class="btn btn-primary">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Modal 5 - PICT INC -->
+        <div class="modal fade" id="projectModal5" tabindex="-1" aria-labelledby="projectModal5Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModal5Label">PICT INC - Annual Tech Fest Website</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <p class="fs-5 mb-0 me-4">Web Developer Volunteer</p>
+                            <div>
+                                <span class="fa fa-calendar me-1"></span> Jan 2020 - June 2020
+                            </div>
+                        </div>
+                        <p class="fs-5 mb-3"><strong>Technologies:</strong> PHP | Angular | MySQL | Razorpay</p>
+                        <p class="mb-3">Led backend development for the Annual Tech Fest Event PICT INC 2020, creating a comprehensive website with online event registration and payment integration.</p>
+                        <h5 style="color: #34495e;">Key Contributions</h5>
+                        <ul>
+                            <li><strong>Backend Leadership:</strong> Served as Lead Backend Developer for the Annual Tech Fest Event PICT INC for year 2020.</li>
+                            <li><strong>Online Registration System:</strong> Updated the website to add online event registrations, streamlining the registration process for participants.</li>
+                            <li><strong>Payment Integration:</strong> Integrated Razorpay online payment platform, enabling secure and seamless payment processing for event registrations.</li>
+                            <li><strong>Full-Stack Development:</strong> Worked with PHP for backend, Angular for frontend, and MySQL for database management, ensuring a robust and scalable solution.</li>
+                        </ul>
+                        <div class="mt-3">
+                            <a href="https://pictinc.org/" target="_blank" class="btn btn-primary">Visit Website</a>
+                            <small class="d-block mt-2 text-muted">(Currently updated & managed by PICT students)</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Project Modal 6 - ResuMatch -->
+        <div class="modal fade" id="projectModal6" tabindex="-1" aria-labelledby="projectModal6Label" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModal6Label">ResuMatch - AI-Powered Resume Tailoring</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <p class="fs-5 mb-0 me-4">UB Hacking | End-to-End Full-Stack Project</p>
+                        </div>
+                        <p class="mb-3">
+                            Built an end-to-end full-stack application during UB Hacking designed to automate the tedious process of tailoring resumes to specific job descriptions. Instead of basic templates, ResuMatch intelligently selects and rewrites user experiences to match target roles.
+                        </p>
+                        <p class="fs-5 mb-3"><strong>Core Technologies:</strong> React, Tailwind CSS, FastAPI, MongoDB, Sentence Transformers, DeepSeek API</p>
+                        <h5 style="color: #34495e;">Key Features &amp; Technical Implementation</h5>
+                        <ul class="mb-3">
+                            <li><strong>Full-Stack Architecture:</strong> Developed a responsive frontend using React and Tailwind CSS to collect user data, storing master profiles in MongoDB. Engineered a FastAPI backend to seamlessly orchestrate the database and AI processing layers.</li>
+                            <li><strong>Semantic Matching Engine:</strong> Implemented Sentence Transformers to analyze the true essence of a Job Description (JD). The system calculates semantic similarity against the user's master profile to automatically rank and extract the top 3 most relevant projects and top 2 work experiences.</li>
+                            <li><strong>AI-Driven Generation:</strong> Integrated the DeepSeek API to process the filtered experiences, automatically summarizing and rewriting raw data into strong, professionally framed bullet points aligned perfectly with the JD.</li>
+                            <li><strong>System Integration:</strong> Successfully tackled complex debugging and data-flow challenges to bridge the gap between the frontend UI, MongoDB, the semantic ranking model, and the generative AI layer within a tight hackathon timeline.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
